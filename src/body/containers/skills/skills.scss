@@ -1,0 +1,95 @@
+$main : #1b8fce;
+$secondary : #2c97d1;
+$green : #85d68a;
+$red : #de7979;
+$orange : #deb479;
+$white : #ffffff;
+$offWhite : #f1f1f1;
+$black : #1b1b1b;
+
+$btnRadius : 25px;
+$btnPadding : 0 5px 0 5px;
+$font : cursive;
+$fontSize: 14px;
+
+.container{
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 10px;
+    .skills{
+        width: 50px;
+        border-radius: 0;
+        transform: scale(1);
+        transition: 0.5s;
+        &:hover{
+            transform: scale(1.05);
+        transition: 0.5s;
+        }
+    }
+}
+.main{
+    margin-top: 10px;
+    border-radius: 25px;
+    background-color: $offWhite;
+}
+.skillsTable{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+    li{
+        list-style: none;
+        width: 100%;
+        text-align: center;
+        font-family: $font;
+        font-size: $fontSize;
+        border-radius: 0;
+        color: $black;
+            transition: 0.5s;
+        &:hover{
+            color: $white;
+            transition: 0.5s;
+        }
+    }
+    .html{
+        background-color: $green;
+    }
+    .css{
+        background-color: $red;
+    }
+    .sass{
+        background-color: $red;
+    }
+    .js{
+        background-color: $orange;
+    }
+    .mongo{
+        background-color: $green;
+    }
+    .react{
+        background-color: $secondary;
+    }
+    .node{
+        background-color: $green;
+    }
+}
+.moreSkills{
+    list-style-position: inside;
+    list-style: square;
+    border-radius: 10px;
+    background-color: $offWhite;
+    margin-top: 10px;
+    padding: 10px;
+    padding-left: 50px;
+    display: block;
+    justify-content: space-around;
+    li{
+        font-family: $font;
+        color: $main;
+        &:hover{
+            color: $black;
+            background-color: $white;
+            border-radius: 25px;
+            display: inline-block;
+        }
+    }
+}

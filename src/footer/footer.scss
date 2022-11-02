@@ -1,0 +1,49 @@
+$main : #1b8fce;
+$secondary : #2c97d1;
+$green : #85d68a;
+$white : #ffffff;
+$offWhite : #f1f1f1;
+$blackWhite : #ececec;
+$font: 'Roboto', sans-serif;
+$fontSize: 14px;
+
+.foot{
+    padding-top: 5px;
+    width: 100%;
+    .des{
+            font-family: $font;
+            font-size: $fontSize;
+            color: #3d3d3d;
+            background-color: $offWhite;
+            text-align: center;
+            border-radius: 10px;
+            font-family: 'Roboto', sans-serif;
+            position: absolute;
+            left: 20px;
+            bottom: 0px;
+            &:hover{
+                background-color: $blackWhite;
+                color: #1b8fce;
+            }
+        }
+    .floatingWhatsappBtn{
+            position: absolute;
+            bottom: 20px;
+            right: 10%;
+            content: 'h';
+            transform: scale(1);
+            transition: 0.5s;
+            &:hover{
+                transform: scale(1.1);
+                transition: 0.5s;
+            }
+        a{
+            display: flex;
+            direction: rtl;
+            img{
+                width: 50px;
+            }
+            
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.body {
+  display: block;
+  border-radius: 50px; }
+  .body .details {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #f1f1f1; }
+    .body .details .left {
+      font-family: "Roboto", sans-serif;
+      font-size: 18px; }
+      .body .details .left .paragraph .egflagicon {
+        width: 20px; }
+    .body .details .right {
+      align-items: center; }
+      .body .details .right .mypic {
+        width: 150px; }
+
+/*# sourceMappingURL=body.css.map */

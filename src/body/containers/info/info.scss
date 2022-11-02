@@ -1,0 +1,66 @@
+$main : #1b8fce;
+$secondary : #2c97d1;
+$green : #85d68a;
+$black : #3d3d3d;
+$red : #de7979;
+$orange : #deb479;
+$white : #ffffff;
+$offWhite : #f1f1f1;
+
+$btnRadius : 25px;
+$btnPadding : 0 5px 0 5px;
+$font : cursive;
+$fontSize: 15px;
+
+*{
+    border-radius: 50px;
+}
+.body {
+    display: block; }
+    .details {
+      display: inline-block;
+      align-items: center;
+      justify-content: space-around;
+      width: 100%;
+      background-color: $offWhite; }
+      
+        .left{
+          width: 200px;
+          .paragraph{
+            font-size: 18px;
+            font-family: $font;
+            border-radius: 0;
+            background-color: $offWhite;
+            color: $black;
+            font-weight: bolder;
+            text-decoration-line: underline;
+            transition: 0.5s;
+            line-height: 30px;
+            span{
+              color: $black;
+              text-decoration-line: none;
+            }
+            &:hover{
+              color: $main;
+              font-size: 18.5px;
+              transition: 0.5s;
+            }
+            .egflagicon {
+                width: 20px;
+                &:hover{
+                  transform: scale(1.05);
+                  transition: 0.5s transform;
+              } }
+        }
+        }
+      .body .details .right {
+        align-items: center; }
+        .mypic {
+          width: 150px;
+          border-radius: 50px;
+          transform: scale(1);
+          transition: 0.5s;
+        &:hover{
+            transform: scale(1.05);
+            transition: 0.5s transform;
+        } }
